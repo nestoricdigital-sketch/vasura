@@ -145,7 +145,7 @@ const NavBar = () => {
           <p className="m-0 leading-tight">vasuravirtual@gmail.com</p>
         </div> */}
 
-        <div className="bg-white max-w-[1316px] w-full mx-auto px-4 sm:px-6    flex items-center justify-between py-3  md:px-10 lg:px-[62px] text-slate-700 rounded-lg relative">
+        <div className="bg-white max-w-[1316px] w-full mx-auto px-4 sm:px-6    flex items-center justify-between py-3  md:px-10 lg:px-[24px] text-slate-700 rounded-lg relative">
           {/* 🔹 Logo */}
 
           <div>
