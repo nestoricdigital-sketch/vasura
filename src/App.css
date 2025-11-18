@@ -1,4 +1,130 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.psv-loader {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+/* --------------- */
+/* container */
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;           /* spacing between icons */
+  margin-right: 2rem;  /* keep your existing margin */
+}
+
+/* clickable icon wrapper */
+.tooltip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 6px;        /* increases hover area on mobile */
+  border-radius: 6px;
+}
+
+/* icon image size */
+.tooltip .icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  pointer-events: none; /* clicks handled by wrapper */
+}
+
+/* tooltip box */
+.tooltip .tooltip-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -40px;               /* distance from the icon; adjust if needed */
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 6px 8px;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 180ms ease, transform 180ms ease;
+  transform-origin: top center;
+  z-index: 50;
+  pointer-events: none;        /* so hover stays with wrapper */
+}
+
+/* little arrow */
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: rgba(0,0,0,0.85);
+  z-index: -1;
+}
+
+/* show on hover/focus (keyboard accessible) */
+.tooltip:hover .tooltip-text,
+.tooltip:focus-within .tooltip-text {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-6px);
+}
+
+/* small screens: move tooltip above the icon to avoid cutoff */
+@media (max-width: 420px) {
+  .tooltip .tooltip-text {
+    bottom: auto;
+    top: -40px;
+  }
+  .tooltip .tooltip-text::after {
+    top: auto;
+    bottom: -6px;
+  }
+}
+/* ---whats app bounce */
+/* float (bounce) animation */
+@keyframes wa-float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); } /* how high it bounces */
+  100% { transform: translateY(0); }
+}
+
+/* apply animation */
+.wa-bounce {
+  animation: wa-float 2.2s ease-in-out infinite;
+}
+
+/* subtle shadow + focus outline fallback */
+.wa-shadow {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+
+/* import "@egjs/react-view360/css/view360.min.css"; */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +161,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
