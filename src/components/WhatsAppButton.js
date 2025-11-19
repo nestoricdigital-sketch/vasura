@@ -26,7 +26,7 @@ const WhatsAppButton = ({
       aria-label="Chat on WhatsApp"
       title="Chat with us on WhatsApp"
       className={`
-        fixed bottom-6 right-6 z-50
+        fixed bottom-6 right-6 z-50 bg-white
         ${dim}
         rounded-full flex items-center justify-center
         active:scale-95

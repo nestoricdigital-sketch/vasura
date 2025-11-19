@@ -3,7 +3,7 @@ export default function GoogleWalkThrough() {
   return (
     <section className="w-full bg-[#36454F] py-16 pl-3 pr-3  md:pr-0 md:pl-[60px]">
       {/* Title */}
-      <h2 className=" text-2xl md:text-4xl font-bold text-white  mb-10">
+      <h2 className="text-[22px]  md:text-[40px]  font-bold text-white  mb-10">
         Google 360 Walk Th<span className="text-[#40E0D0]">r</span>ough
       </h2>
 
@@ -14,7 +14,7 @@ export default function GoogleWalkThrough() {
           {/* Part 1 */}
           <div>
             <p
-              className="leading-relaxed  sm:leading-[1.5rem] md:leading-[3.75rem]"
+              className="leading-relaxed  text-[14px] md:text-[20px] md:leading-[3.75rem]"
               // style={{ lineHeight: "3.75rem" }}
             >
               The Google Street View Technology directly puts your business on
@@ -27,7 +27,7 @@ export default function GoogleWalkThrough() {
           {/* Part 2 */}
           <div>
             <p
-              className="leading-relaxed  sm:leading-[1.5rem] md:leading-[3.75rem]"
+              className="leading-relaxed   text-[14px] md:text-[20px] md:leading-[3.75rem]"
               // style={{ lineHeight: "3.75rem" }}
             >
               The Google See Inside Tour increases the credibility of your
@@ -42,7 +42,7 @@ export default function GoogleWalkThrough() {
           {/* Part 3 */}
           <div>
             <p
-              className="leading-relaxed  sm:leading-[1.5rem] md:leading-[3.75rem]"
+              className="leading-relaxed   text-[14px] md:text-[20px] md:leading-[3.75rem]"
               // style={{ lineHeight: "3.75rem" }}
             >
               The walkthrough is offered by the owner of the business with the
