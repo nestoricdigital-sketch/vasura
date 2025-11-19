@@ -91,9 +91,9 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
         {/* Left Section */}
         <div className="space-y-9">
-          <h2 className="text-4xl md:text-6xl font-bold leading-snug text-gray-900">
-            Let’s talk <br />
-            on something <span className="text-teal-400">great</span> <br />
+          <h2 className="text-[24px] md:text-6xl font-bold leading-snug text-gray-900">
+            Let’s talk on something{" "}
+            <span className="text-teal-400">great </span>
             together
           </h2>
 

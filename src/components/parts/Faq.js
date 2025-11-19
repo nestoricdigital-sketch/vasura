@@ -72,7 +72,7 @@ export default function Faq() {
       {/* Header */}
       <div className=" mb-12">
         <p className="text-xs uppercase tracking-wide text-black">FAQ’S</p>
-        <h2 className="text-2xl  md:text-[40px] font-bold text-black mt-2">
+        <h2 className="text-[22px]  md:text-[40px] font-bold text-black mt-2">
           Your Quest<span className="text-teal-500">i</span>ons, Answered
         </h2>
         <p className="text-gray-500 mt-4  mx-auto">

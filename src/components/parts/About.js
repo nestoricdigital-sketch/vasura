@@ -6,7 +6,7 @@ const About = () => {
       <section className=" px-4 md:px-8 lg:mx-8 py-16 ">
         {/* Title */}
         <p className=" text-black  mb-2">Who We are</p>
-        <h2 className="text-2xl md:text-[40px] sm:text-4xl  font-bold mb-10 text-black text-center md:text-left">
+        <h2 className="text-[22px] md:text-[40px]   font-bold mb-10 text-black  ">
           Bringing Real Spaces to Life <span className="text-[#40E0D0]">V</span>
           irtually
         </h2>

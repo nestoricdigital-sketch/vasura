@@ -83,6 +83,7 @@ import bgapart from "./components/images/works/apartment.jpg";
 import arrow from "./components/images/menu/next.png";
 import WhatsAppButton from "./components/WhatsAppButton";
 import { useLocation } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   // const panoramas = [
@@ -150,6 +151,7 @@ function App() {
     <>
       {/* <HeroSection /> */}
       <div className="App font-aeonik">
+        <ScrollToTop />
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route

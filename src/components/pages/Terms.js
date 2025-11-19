@@ -15,7 +15,7 @@ const Terms = () => {
         </Link> */}
 
         <img src={term} className="w-full  md:h-full mb-6" alt="terms" />
-        <div className=" p-6 bg-[#36454F] flex md:justify-between items-center rounded-lg mb-6 text-white">
+        <div className=" py-6 md:px-4 bg-[#36454F] flex flex-col justify-center  md:flex-row md:justify-between items-center rounded-lg mb-6 text-white">
           <h1 className="text-3xl font-semibold">
             Terms & Condi<span className="text-[#40E0D0]">t</span>ion
           </h1>

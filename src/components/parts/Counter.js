@@ -57,12 +57,12 @@ const Counter = () => {
       className=" px-4 md:px-[64px] w-full h-[394px] bg-[#36454F] text-white py-2 md:py-9  "
     >
       {/* Section Title */}
-      <h1 className=" mb-16 text-start text-2xl md:text-[40px] font-semibold md:mb-24">
+      <h1 className="mt-6 mb-16 text-start text-2xl md:text-[40px] font-semibold md:mb-24">
         Prov<span className="text-[#40E0D0]">e</span>n Impact & Results
       </h1>
 
       {/* Counter Grid */}
-      <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4  gap-4 md:gap-7  text-center ">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4  gap-5 md:gap-7  text-center ">
         <div>
           <h3 className="text-[#40E0D0] text-4xl md:text-5xl font-bold">
             {counts.projects}+

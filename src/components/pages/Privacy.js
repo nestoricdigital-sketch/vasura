@@ -13,7 +13,7 @@ const Privacy = () => {
           <img src={arrow} className="w-5 h-5 mb-6 -rotate-90" alt="arrow" />
         </Link> */}
         <img src={policy} className="w-full h-full mb-6" alt="policy" />
-        <div className=" p-6 bg-[#36454F] flex justify-between items-center rounded-lg mb-6 text-white">
+        <div className=" py-6 md:px-4 bg-[#36454F] flex flex-col justify-center  md:flex-row md:justify-between items-center rounded-lg mb-6 text-white">
           <h1 className="text-3xl font-semibold">
             Pri<span className="text-[#40E0D0]">v</span>acy Policy
           </h1>

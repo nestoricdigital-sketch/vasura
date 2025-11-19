@@ -13,7 +13,7 @@ export default function Experience() {
           <p className="text-black text-sm  md:text-base mb-2">
             Google Immersive View
           </p>
-          <h2 className="text-2xl  md:text-[40px]  font-bold text-black mb-4">
+          <h2 className="text-[22px]  md:text-[40px]  font-bold text-black mb-4">
             Experience Google Immersive{" "}
             <span className="text-[#40E0D0]">V</span>iew
           </h2>

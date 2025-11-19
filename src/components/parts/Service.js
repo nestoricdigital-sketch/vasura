@@ -9,7 +9,7 @@ const Service = () => {
       <div className=" ">
         {/* Section Title */}
         <p className=" text-black mb-2">Services</p>
-        <h2 className="text-2xl  md:text-[40px] font-semibold text-start text-black mb-4">
+        <h2 className="text-[22px]  md:text-[40px] font-semibold text-start text-black mb-4">
           Wha<span className="text-[#40E0D0]">t</span> We Offer
         </h2>
         <p className="text-start text-xl text-gray-600  mx-auto mb-12">
