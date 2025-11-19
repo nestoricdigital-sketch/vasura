@@ -31,7 +31,15 @@ const PanoramaViewer = ({ src }) => {
         loadingImg={null} //added
         loadingTxt="" //added
         canvasBackground="transparent" // ✅ remove gray
-        plugins={[[AutorotatePlugin, { speed: 1.2, autostartDelay: 0 }]]}
+        plugins={[
+          [
+            AutorotatePlugin,
+            {
+              autostartDelay: 0,
+              autorotateSpeed: "0.32rpm", // ultra slow rotation
+            },
+          ],
+        ]}
         /* 🔥 OVERRIDE LOADER HERE */
         // 🔥 Correct callback (no destructuring)
         onReady={(viewer) => {

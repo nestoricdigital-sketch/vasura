@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { supabase } from "./supabaseClient";
 import logo from "../images/menu/vasuraLogo.png";
+import { Link } from "react-router-dom";
 
 export default function AdminFetchForms() {
   const [forms, setForms] = useState([]);
@@ -11,6 +12,9 @@ export default function AdminFetchForms() {
 
   const email = localStorage.getItem("admin_email");
   const password = localStorage.getItem("admin_password");
+  const sortedForms = [...forms].sort(
+    (a, b) => new Date(b.created_at) - new Date(a.created_at)
+  );
 
   // Fetch forms on mount
   const loadForms = async () => {
@@ -42,8 +46,16 @@ export default function AdminFetchForms() {
     <div className="w-full flex flex-col bg-gray-100 min-h-screen">
       {/* Navbar */}
       <div className="w-full bg-white shadow flex flex-col sm:flex-row sm:items-center sm:justify-between px-4 sm:px-6 py-3 gap-2">
-        <div className="flex justify-between items-center w-full sm:w-auto">
-          <img src={logo} className="w-24 sm:w-28 object-contain" alt="Logo" />
+        <div className="flex justify-between items-center  ">
+          <div>
+            <Link to="/">
+              <img
+                src={logo}
+                className="md:w-52 w-28 object-contain"
+                alt="Logo"
+              />
+            </Link>
+          </div>
 
           <div className="sm:hidden text-sm text-gray-600">
             <h1 className="text-base">Admin</h1>
@@ -65,7 +77,7 @@ export default function AdminFetchForms() {
       <div className="flex flex-1 flex-col sm:flex-row">
         {/* Sidebar */}
         <div className="w-full sm:w-60 bg-white shadow-sm p-4 flex sm:block justify-center sm:justify-start">
-          <button className="text-left px-3 py-2 rounded hover:bg-gray-100 w-full sm:w-auto text-center sm:text-left">
+          <button className="text-left px-3 py-2 rounded hover:bg-gray-100 w-full sm:w-auto  sm:text-left">
             Overview
           </button>
         </div>
@@ -78,7 +90,7 @@ export default function AdminFetchForms() {
           <div>
             {/* List Container */}
             <div className="mt-4 space-y-3">
-              {forms.map((f) => (
+              {sortedForms.map((f) => (
                 <div
                   key={f.id}
                   onClick={() => setSelected(f)}

@@ -77,7 +77,7 @@ export default function Faq() {
         <h2 className="text-[22px]  md:text-[40px] font-bold text-black mt-2">
           Your Quest<span className="text-teal-500">i</span>ons, Answered
         </h2>
-        <p className="text-gray-500 mt-4  mx-auto">
+        <p className="text-gray-500 mt-4 text-[14px] md:text-[20px] mx-auto">
           Discover everything about NTAR — from robust security measures to the
           wide range of supported payment options.
         </p>

@@ -106,7 +106,7 @@ const WorkSection = () => {
           transition-opacity duration-300
         "
             >
-              Vijaya Vimala's Residence
+              {/* Vijaya Vimala's Residence */}
             </div>
           </Link>
 
@@ -143,7 +143,7 @@ const WorkSection = () => {
           transition-opacity duration-300
         "
             >
-              AQ Restaurant
+              {/* AQ Restaurant */}
             </div>
           </Link>
         </div>

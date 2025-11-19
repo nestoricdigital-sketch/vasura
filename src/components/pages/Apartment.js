@@ -58,7 +58,7 @@ const Apartment = ({ onClose }) => {
       <div className="absolute top-0 left-0 w-full flex items-center justify-between px-6 py-3  z-20">
         {/* Title */}
         <h2 className="text-lg md:text-xl font-semibold tracking-wide">
-          Vijaya Vimala's Residence
+          {/* Vijaya Vimala's Residence */}
         </h2>
 
         {/* Right section — Social media + close */}
@@ -216,7 +216,7 @@ const Apartment = ({ onClose }) => {
             </span>
           </div>
         </div>
-          <div className="md:mr-6">
+        <div className="md:mr-6">
           <img src={logo} className="w-28 md:w-full md:h-16" alt="logo" />
         </div>
       </div>

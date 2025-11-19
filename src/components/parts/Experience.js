@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <section
       className="w-full flex flex-col md:flex-row items-start justify-between 
-  px-4 md:px-[64px]  py-12 gap-8 
+  px-4 md:px-[64px]  py-1 md:py-6 gap-8 
   md:h-[615px] h-auto"
     >
       {/* Left Box (60%) */}

@@ -1,5 +1,6 @@
 import work1 from "../images/works/col_floor.jpg";
-import work2 from "../images/works/classComp.jpg";
+// import work2 from "../images/works/classComp.jpg";
+import work2 from "../images/works/apartment.jpg";
 import work3 from "../images/works/restarent.jpg";
 import { Link } from "react-router-dom";
 
@@ -34,7 +35,7 @@ export default function Works() {
           See the Difference. Feel the <span className="text-[#40E0D0]">E</span>
           xperience.
         </h2>
-        <p className="text-gray-600 text-base md:text-lg  mx-auto">
+        <p className="text-gray-600 text-[14px] md:text-lg  mx-auto">
           We don’t just capture places; we create digital experiences that drive
           engagement.
         </p>

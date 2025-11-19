@@ -17,10 +17,10 @@ const NavBar = () => {
   //ignore text
   const location = useLocation();
 
-  const moveToWorks = () => {
-    const section = document.getElementById("works");
-    section?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const moveToWorks = () => {
+  //   const section = document.getElementById("works");
+  //   section?.scrollIntoView({ behavior: "smooth" });
+  // };
   const moveToContact = () => {
     const section = document.getElementById("contact");
     section?.scrollIntoView({ behavior: "smooth" });
@@ -101,12 +101,20 @@ const NavBar = () => {
             textShadow: "1px 1px 6px rgba(0,0,0,0.7)",
           }}
         >
-          <h1 className=" text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug mb-4">
+          <h1 className=" text-lg sm:text-xl md:text-[56px]  md:leading-[4rem]  font-semibold leading-snug mb-4">
+            Bring Your Space to Life With 360°{" "}
+            <br className="hidden sm:block" />
+            Immersive Experiences
+            {/* to give your audience a truly immersive way to explore your space
+            from anywhere — helping you build trust, attract more customers, and
+            stand out on Google */}
+          </h1>
+          {/* <h1 className=" text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug mb-4">
             We merge technology, creativity, and storytelling{" "}
             <br className="hidden sm:block" />
             to give your audience a truly immersive way to explore your space
             from anywhere.
-          </h1>
+          </h1> */}
           <div className="flex flex-row items-center justify-center gap-8">
             <Link to="/work1">
               <button

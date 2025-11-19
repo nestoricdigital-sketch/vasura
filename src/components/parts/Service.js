@@ -29,7 +29,7 @@ const Service = () => {
               />
             </div>
             <div className="p-1 md:p-6 text-center">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-800 mt-2 mb-2">
                 NFC Technology{" "}
               </h3>
               <p className="text-gray-600 text-[14px] md:text-xl">
@@ -49,7 +49,7 @@ const Service = () => {
               />
             </div>
             <div className="p-1 md:p-6 text-center">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-800 mt-2 mb-2">
                 Google Virtual Tours
               </h3>
               <p className="text-gray-600 text-[14px] md:text-xl">
@@ -69,7 +69,7 @@ const Service = () => {
               />
             </div>
             <div className="p-1 md:p-6 text-center">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-800 mt-2 mb-2">
                 Digi 3D Tour
               </h3>
               <p className="text-gray-600 text-[14px] md:text-xl">

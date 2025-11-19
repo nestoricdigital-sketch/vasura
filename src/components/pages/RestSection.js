@@ -110,7 +110,7 @@ const RestSection = () => {
                 transition-opacity duration-300
               "
             >
-              Vijaya Vimala's Residence
+              {/* Vijaya Vimala's Residence */}
             </div>
           </Link>
 
@@ -147,7 +147,7 @@ const RestSection = () => {
                 transition-opacity duration-300
               "
             >
-              Mahima College
+              {/* Mahima College */}
             </div>
           </Link>
         </div>

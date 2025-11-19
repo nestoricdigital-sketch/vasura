@@ -59,7 +59,7 @@ const Restarent = ({ onClose }) => {
       <div className="absolute top-0 left-0 w-full flex items-center justify-between px-6 py-3  z-20">
         {/* Title */}
         <h2 className="text-lg md:text-xl font-semibold tracking-wide">
-          AQ Restaurant
+          {/* AQ Restaurant */}
         </h2>
 
         {/* Right section — Social media + close */}

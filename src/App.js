@@ -105,7 +105,13 @@ function App() {
   // hide in work page
   const location = useLocation();
 
-  const hideOnPages = ["/work1", "/work2", "/work3"];
+  const hideOnPages = [
+    "/work1",
+    "/work2",
+    "/work3",
+    "/admin-login",
+    "/dashboard",
+  ];
   const shouldHide = hideOnPages.includes(location.pathname);
 
   const preloadImage = (src) => {

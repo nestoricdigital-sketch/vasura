@@ -106,7 +106,7 @@ const ClassSection = () => {
           transition-opacity duration-300
         "
             >
-              AQ Restaurant
+              {/* AQ Restaurant */}
             </div>
           </Link>
 
@@ -143,7 +143,7 @@ const ClassSection = () => {
           transition-opacity duration-300
         "
             >
-              Mahima College
+              {/* Mahima College */}
             </div>
           </Link>
         </div>
