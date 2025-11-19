@@ -12,7 +12,7 @@ const Service = () => {
         <h2 className="text-[22px]  md:text-[40px] font-semibold text-start text-black mb-4">
           Wha<span className="text-[#40E0D0]">t</span> We Offer
         </h2>
-        <p className="text-start text-xl text-gray-600  mx-auto mb-12">
+        <p className="text-start text-[14px] md:text-xl text-gray-600  mx-auto mb-12">
           No matter your business type, our virtual tours help you stand out
           online and build customer trust.
         </p>
@@ -32,7 +32,7 @@ const Service = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 NFC Technology{" "}
               </h3>
-              <p className="text-gray-600 text-xl">
+              <p className="text-gray-600 text-[14px] md:text-xl">
                 Smart tap-enabled digital business cards and contactless sharing
                 solutions
               </p>
@@ -52,7 +52,7 @@ const Service = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Google Virtual Tours
               </h3>
-              <p className="text-gray-600 text-xl">
+              <p className="text-gray-600 text-[14px] md:text-xl">
                 360° interactive virtual experiences integrated with Google
                 Maps.
               </p>
@@ -72,7 +72,7 @@ const Service = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 Digi 3D Tour
               </h3>
-              <p className="text-gray-600 text-xl">
+              <p className="text-gray-600 text-[14px] md:text-xl">
                 Advanced digital 3d walkthroughs offering a lifelike viewing
                 experience.
               </p>

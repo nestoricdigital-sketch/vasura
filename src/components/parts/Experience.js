@@ -19,7 +19,7 @@ export default function Experience() {
           </h2>
         </div>
         <p
-          className="text-gray-600 text-xl leading-relaxed  sm:leading-[1.5rem] md:leading-[3.75rem]"
+          className="text-gray-600 text-[14px] md:text-xl leading-relaxed  sm:leading-[1.5rem] md:leading-[3.75rem]"
           // style={{ lineHeight: "3.75rem" }}
         >
           Step beyond traditional visuals with Google Immersive View, an

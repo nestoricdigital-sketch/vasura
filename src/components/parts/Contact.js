@@ -231,6 +231,7 @@ export default function ContactForm() {
                 </label>
                 <input
                   placeholder="Name *"
+                  maxLength={30}
                   value={form.name}
                   onChange={(e) =>
                     setForm((prev) => ({ ...prev, name: e.target.value }))
@@ -247,11 +248,16 @@ export default function ContactForm() {
               </label>
               <input
                 placeholder="Phone"
+                type="tel"
+                inputMode="numeric"
+                maxLength={10}
                 value={form.phone}
-                onChange={(e) =>
-                  setForm((prev) => ({ ...prev, phone: e.target.value }))
-                }
-                className="w-full bg-transparent border-b border-gray-400 focus:border-teal-400 outline-none py-2 text-sm"
+                onChange={(e) => {
+                  const value = e.target.value.replace(/\D/g, ""); // ✅ allow only digits
+                  setForm((prev) => ({ ...prev, phone: value }));
+                }}
+                className="w-full bg-transparent border-b border-gray-400 
+             focus:border-teal-400 outline-none py-2 text-sm"
                 disabled={loading}
               />
             </div>
@@ -281,6 +287,7 @@ export default function ContactForm() {
               <textarea
                 placeholder="Message"
                 value={form.message}
+                maxLength={200}
                 onChange={(e) =>
                   setForm((prev) => ({ ...prev, message: e.target.value }))
                 }
