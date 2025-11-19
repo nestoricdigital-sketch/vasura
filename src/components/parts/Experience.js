@@ -10,7 +10,7 @@ export default function Experience() {
       {/* Left Box (60%) */}
       <div className="md:w-3/5 w-full space-y-4 flex flex-col justify-center">
         <div>
-          <p className="text-black text-sm  md:text-base mb-2">
+          <p className="text-black text-[10px] md:text-[14px] mb-2">
             Google Immersive View
           </p>
           <h2 className="text-[22px]  md:text-[40px]  font-bold text-black mb-4">

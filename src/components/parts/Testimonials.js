@@ -49,7 +49,9 @@ export default function Testimonials() {
 
       {/* SECTION TITLE */}
       <div className=" -mt-24 md:-mt-60  relative z-20 px-4 md:px-[64px]">
-        <p className="text-base text-black mb-2">How We Work</p>
+        <p className=" text-black text-[10px] md:text-[14px] mb-2">
+          How We Work
+        </p>
 
         <h2 className="text-[22px]  md:text-[40px] font-bold text-black mb-12">
           What Our Happy Cus<span className="text-[#40E0D0]">t</span>omers Says

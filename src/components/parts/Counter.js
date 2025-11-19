@@ -54,10 +54,10 @@ const Counter = () => {
   return (
     <div
       ref={sectionRef}
-      className=" px-4 md:px-[64px] w-full h-[394px] bg-[#36454F] text-white py-2 md:py-9  "
+      className=" px-4 md:px-[64px] w-full h-[300px] md:h-[300px] bg-[#36454F] text-white py-2 md:py-9  "
     >
       {/* Section Title */}
-      <h1 className="mt-6 mb-16 text-start text-2xl md:text-[40px] font-semibold md:mb-24">
+      <h1 className="mt-7 mb-9 text-start text-2xl md:text-[40px] font-semibold md:mb-16">
         Prov<span className="text-[#40E0D0]">e</span>n Impact & Results
       </h1>
 
@@ -67,7 +67,9 @@ const Counter = () => {
           <h3 className="text-[#40E0D0] text-4xl md:text-5xl font-bold">
             {counts.projects}+
           </h3>
-          <p className="text-gray-300 mt-2">Completed Projects</p>
+          <p className="text-gray-300 mt-2 text-[12px] md:text-[18px] ">
+            Completed Projects
+          </p>
         </div>
 
         <div>
@@ -81,14 +83,18 @@ const Counter = () => {
           <h3 className="text-[#40E0D0] text-4xl md:text-5xl font-bold">
             {counts.cities}
           </h3>
-          <p className="text-gray-300 mt-2">Cities</p>
+          <p className="text-gray-300 mt-2 text-[12px] md:text-[18px]">
+            Cities
+          </p>
         </div>
 
         <div>
           <h3 className="text-[#40E0D0] text-4xl md:text-5xl font-bold">
             {counts.success}%
           </h3>
-          <p className="text-gray-300 mt-2">Client Satisfaction Rate</p>
+          <p className="text-gray-300 mt-2 text-[12px] md:text-[18px]">
+            Satisfaction Rate
+          </p>
         </div>
       </div>
     </div>

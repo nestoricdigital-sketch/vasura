@@ -116,7 +116,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div className="w-full md:w-auto">
-          <h3 className="font-semibold text-gray-800  md:text-[18px] md:mb-4">
+          <h3 className="font-semibold text-gray-800 mb-4  md:text-[18px] md:mb-4">
             Contact
           </h3>
           <ul className="space-y-3 text-sm">

@@ -71,7 +71,9 @@ export default function Faq() {
     <section className=" mt-2 md:mt-24 mx-auto px-4  md:px-[64px] py-16">
       {/* Header */}
       <div className=" mb-12">
-        <p className="text-xs uppercase tracking-wide text-black">FAQ’S</p>
+        <p className="text-[10px] md:text-[14px] uppercase tracking-wide text-black">
+          FAQ’S
+        </p>
         <h2 className="text-[22px]  md:text-[40px] font-bold text-black mt-2">
           Your Quest<span className="text-teal-500">i</span>ons, Answered
         </h2>

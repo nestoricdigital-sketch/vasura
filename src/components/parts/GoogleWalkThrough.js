@@ -55,7 +55,7 @@ export default function GoogleWalkThrough() {
 
         {/* Right Side (35%) */}
         <div className="w-full md:w-[35%] flex justify-center bg-white rounded-tl-[90px] rounded-bl-[90px]">
-          <div className="flex items-center justify-end w-full md:w-96  lg:h-[650px]">
+          <div className="flex items-center justify-end w-full md:w-96  lg:h-[650px] md:ml-0 ml-5 -mr-5">
             <img
               src={walkT}
               alt="Google 360 Walkthrough"

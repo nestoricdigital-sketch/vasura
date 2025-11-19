@@ -8,7 +8,7 @@ const Service = () => {
     <section className="py-16 px-4 md:px-14 w-full" id="services">
       <div className=" ">
         {/* Section Title */}
-        <p className=" text-black mb-2">Services</p>
+        <p className=" text-black mb-2 md:text-[14px] ">Services</p>
         <h2 className="text-[22px]  md:text-[40px] font-semibold text-start text-black mb-4">
           Wha<span className="text-[#40E0D0]">t</span> We Offer
         </h2>

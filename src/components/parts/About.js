@@ -5,7 +5,9 @@ const About = () => {
     <>
       <section className=" px-4 md:px-8 lg:mx-8 py-16 ">
         {/* Title */}
-        <p className=" text-black  mb-2">Who We are</p>
+        <p className=" text-black text-[10px] md:text-[14px] mb-2">
+          Who We are
+        </p>
         <h2 className="text-[22px] md:text-[40px]   font-bold mb-10 text-black  ">
           Bringing Real Spaces to Life <span className="text-[#40E0D0]">V</span>
           irtually
@@ -26,7 +28,7 @@ const About = () => {
           {/* Right Side - Text (40%) */}
           <div className="w-full md:w-2/5 text-gray-700">
             <p
-              className="text-base md:text-xl leading-relaxed  sm:leading-[1.5rem] md:leading-[3rem] mb-6"
+              className="text-[14px] md:text-xl leading-relaxed   md:leading-[3rem] mb-6"
               // style={{ lineHeight: "3.75rem" }}
             >
               At Vasura Virtual Experience, we turn physical spaces into
@@ -41,7 +43,7 @@ const About = () => {
 
             {/* Bullet Points */}
             <ul
-              className="font-bold list-disc list-inside space-y-2 leading-relaxed text-xl sm:leading-[1.5rem] md:leading-[3.75rem]"
+              className="font-bold list-disc list-inside space-y-2 leading-relaxed text-[14px] md:text-xl  md:leading-[3.75rem]"
               // style={{ lineHeight: "3.75rem" }}
             >
               <li>Google Virtual Tours</li>
