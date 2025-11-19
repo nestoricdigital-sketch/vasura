@@ -55,20 +55,28 @@ export default function Footer() {
                 Home
               </p>
             </li>
-            <li onClick={() => moveToSection("about")}>
-              <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
-                About us
-              </p>
+            <li
+            //  onClick={() => moveToSection("about")}
+            >
+              <Link to="/about">
+                <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
+                  About us
+                </p>
+              </Link>
             </li>
             <li onClick={() => moveToSection("services")}>
               <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
                 Services
               </p>
             </li>
-            <li onClick={() => moveToSection("works")}>
-              <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
-                Works
-              </p>
+            <li
+            //  onClick={() => moveToSection("works")}
+            >
+              <Link to="/work1">
+                <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
+                  Works
+                </p>
+              </Link>
             </li>
           </ul>
         </div>
