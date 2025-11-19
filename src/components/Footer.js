@@ -30,47 +30,55 @@ export default function Footer() {
     <footer className="mt-2 md:mt-20 bg-[radial-gradient(circle_at_120%_250%,_rgba(64,224,208,0.56)_0%,_transparent_55%)] text-gray-700 py-10 px-4 md:px-[64px]">
       <div className="w-full flex flex-wrap md:flex-nowrap justify-between gap-10 pb-8">
         {/* Logo and Description */}
-        <div className="w-full md:max-w-[29%]">
+        <div className="w-[80%] md:max-w-[25%]">
           <div className="flex items-center mb-3">
             <img
               src={Vlogo}
               alt="Vasura Virtual Experience"
-              className="w-full h-15"
+              className="md:w-80 h-15"
             />
           </div>
-          <p className="text-sm md:text-xl  leading-relaxed">
+          <p className="text-sm md:text-[16px]  leading-relaxed">
             Transforming spaces into immersive digital experiences through 360°
             virtual tours.
           </p>
         </div>
 
         {/* Quick Links */}
-        <div className="w-full md:max-w-[20%] ">
-          <h3 className="font-semibold text-gray-800 mb-4  md:text-[18px]">
+        <div className="w-full md:max-w-[20%]  ">
+          <h3 className="font-semibold text-gray-800 mb-4  md:text-[18px] cursor-pointer">
             Quick links
           </h3>
-          <ul className="space-y-2 text-sm md:text-[16px]">
+          <ul className="space-y-2 text-sm md:text-[16px] cursor-pointer">
             <li onClick={() => moveToSection("home")}>
-              <p className="hover:text-teal-600 transition md:mb-4">Home</p>
+              <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
+                Home
+              </p>
             </li>
             <li onClick={() => moveToSection("about")}>
-              <p className="hover:text-teal-600 transition md:mb-4">About us</p>
+              <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
+                About us
+              </p>
             </li>
             <li onClick={() => moveToSection("services")}>
-              <p className="hover:text-teal-600 transition md:mb-4">Services</p>
+              <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
+                Services
+              </p>
             </li>
             <li onClick={() => moveToSection("works")}>
-              <p className="hover:text-teal-600 transition md:mb-4">Works</p>
+              <p className="hover:text-teal-600 transition md:mb-4 cursor-pointer">
+                Works
+              </p>
             </li>
           </ul>
         </div>
 
         {/* Services */}
-        <div className="w-full md:max-w-[20%]">
-          <h3 className="font-semibold text-gray-800 mb-3 md:text-[18px]">
+        <div className="w-full md:max-w-[20%] ">
+          <h3 className="font-semibold text-gray-800 mb-3 md:text-[18px] ">
             Services
           </h3>
-          <ul className="space-y-2 text-sm ">
+          <ul className="space-y-2 text-sm cursor-pointer ">
             <li>
               <p
                 className="hover:text-teal-600 transition md:mb-4 md:text-[16px]"
@@ -81,7 +89,7 @@ export default function Footer() {
             </li>
             <li>
               <p
-                className="hover:text-teal-600 transition md:mb-4 md:text-[16px]"
+                className="hover:text-teal-600 transition md:mb-4 md:text-[16px] cursor-pointer"
                 onClick={() => moveToSection("services")}
               >
                 NFC Technology
@@ -89,7 +97,7 @@ export default function Footer() {
             </li>
             <li>
               <p
-                className="hover:text-teal-600 transition md:mb-4 md:text-[16px]"
+                className="hover:text-teal-600 transition md:mb-4 md:text-[16px] cursor-pointer"
                 onClick={() => moveToSection("services")}
               >
                 Digi 3D Tour
@@ -195,7 +203,7 @@ export default function Footer() {
         }}
       /> */}
       {/* Bottom Section */}
-      <div className="max-w-7xl flex flex-col md:flex-row  sm:justify-start md:justify-between md:items-center text-[8px] md:text-xl text-gray-600 mt-6">
+      <div className="max-w-7xl md:text-[16px] flex flex-col md:flex-row  sm:justify-start md:justify-between md:items-center text-[8px]  text-gray-600 mt-6">
         <p>© 2025 Vasura Virtual Experience. All rights reserved.</p>
       </div>
     </footer>

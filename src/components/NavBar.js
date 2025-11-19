@@ -108,12 +108,14 @@ const NavBar = () => {
             from anywhere.
           </h1>
           <div className="flex flex-row items-center justify-center gap-8">
-            <button
-              className="px-6 py-2 bg-teal-400 text-white  rounded-md hover:bg-teal-500 transition"
-              onClick={moveToWorks}
-            >
-              View Demo
-            </button>
+            <Link to="/work1">
+              <button
+                className="px-6 py-2 bg-teal-400 text-white  rounded-md hover:bg-teal-500 transition"
+                // onClick={moveToWorks}
+              >
+                View Demo
+              </button>
+            </Link>
             <button
               className="px-6 py-2 bg-transparent border border-white text-white rounded-md  transition hover:bg-white hover:text-black"
               onClick={moveToContact}

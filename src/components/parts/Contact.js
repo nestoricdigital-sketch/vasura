@@ -90,10 +90,14 @@ export default function ContactForm() {
     <section className="w-full bg-white py-16 px-4  md:px-[64px] " id="contact">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
         {/* Left Section */}
-        <div className="space-y-9">
+        <div className="space-y-8">
           <h2 className="text-[24px] md:text-6xl font-bold leading-snug text-gray-900">
-            Let’s talk on something{" "}
-            <span className="text-teal-400">great </span>
+            Let’s talk
+            {/* BR visible ONLY on large devices */}
+            <br className="hidden md:block" />
+            on something <span className="text-teal-400">great </span>
+            {/* BR visible ONLY on large devices */}
+            <br className="hidden md:block" />
             together
           </h2>
 
