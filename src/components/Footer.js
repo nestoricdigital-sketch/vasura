@@ -211,8 +211,19 @@ export default function Footer() {
         }}
       /> */}
       {/* Bottom Section */}
-      <div className="max-w-7xl md:text-[16px] flex flex-col md:flex-row  sm:justify-start md:justify-between md:items-center text-[8px]  text-gray-600 mt-6">
+      <div className="w-full md:text-[16px] flex flex-col md:flex-row  sm:justify-start md:justify-between md:items-center text-[8px]  text-gray-600 mt-6">
         <p>© 2025 Vasura Virtual Experience. All rights reserved.</p>
+        <p className="md:mr-8">
+          Design & Developed by{" "}
+          <a
+            href="https://www.nestoricdigital.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold  hover:text-blue-400"
+          >
+            Nestoric Digital
+          </a>
+        </p>
       </div>
     </footer>
   );

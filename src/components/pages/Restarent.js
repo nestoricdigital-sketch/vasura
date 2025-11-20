@@ -74,7 +74,7 @@ const Restarent = ({ onClose }) => {
       </div>
       <div className="absolute  left-2 bottom-2 m-2  flex flex-row items-center gap-4 z-20">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/profile.php?id=61583254404746"
           target="_blank"
           rel="noreferrer"
           className="text-white hover:text-orange-400 transition transform hover:scale-110"
