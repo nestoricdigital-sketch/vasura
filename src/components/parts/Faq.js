@@ -94,7 +94,7 @@ export default function Faq() {
               className="border-b border-gray-200 pb-4 cursor-pointer transition-all"
             >
               <div className="flex justify-between items-center">
-                <h3 className="text-gray-800 font-medium text-base md:text-lg pr-4">
+                <h3 className="text-gray-800 font-medium text-[14px] md:text-lg pr-4">
                   {faq.question}
                 </h3>
                 {
@@ -108,7 +108,7 @@ export default function Faq() {
                 }
               </div>
               {openIndex === index && (
-                <p className="text-gray-600 mt-3 text-sm md:text-base">
+                <p className="text-gray-600 mt-3 text-sm font-semibold md:text-base">
                   {faq.answer}
                 </p>
               )}
@@ -127,7 +127,7 @@ export default function Faq() {
                 className="border-b border-gray-200 pb-4 cursor-pointer transition-all"
               >
                 <div className="flex justify-between items-center">
-                  <h3 className="text-gray-800 font-medium text-base md:text-lg pr-4">
+                  <h3 className="text-gray-800 font-medium text-[14px] md:text-lg pr-4">
                     {faq.question}
                   </h3>
                   {
@@ -141,7 +141,7 @@ export default function Faq() {
                   }
                 </div>
                 {openIndex === realIndex && (
-                  <p className="text-gray-600 mt-3 text-sm md:text-base">
+                  <p className="text-gray-600 mt-3 text-sm font-semibold md:text-base">
                     {faq.answer}
                   </p>
                 )}

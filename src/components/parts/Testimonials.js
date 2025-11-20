@@ -49,7 +49,7 @@ export default function Testimonials() {
 
       {/* SECTION TITLE */}
       <div className=" -mt-24 md:-mt-60  relative z-20 px-4 md:px-[64px]">
-        <p className=" text-black text-[10px] md:text-[14px] mb-2">
+        <p className=" text-black text-[12px] md:text-[14px] mb-2">
           How We Work
         </p>
 

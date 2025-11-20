@@ -11,14 +11,14 @@ const Mission = () => {
       <div className=" flex justify-center" id="about">
         <NavBar />
       </div>
-      <div className="mt-20">
+      <div className=" mt-5 md:mt-20">
         <About />
       </div>
-      <section className=" relative md:mt-20 flex flex-col md:flex-row items-center justify-center w-full">
+      <section className=" relative  md:mt-20 flex flex-col md:flex-row items-center justify-center w-full">
         {/* Background text */}
 
         <h2
-          className="text-xl md:text-[40px] font-bold mb-9"
+          className="text-[22px] md:text-[40px] font-bold mb-3 md:mb-9"
           //   className=" absolute bottom-[80%] sm:bottom-[80%] lg:bottom-[80%] left-1/2 -translate-x-1/2
           //      text-5xl sm:text-6xl md:text-7xl lg:text-9xl
           //      font-extrabold text-transparent bg-clip-text
@@ -43,7 +43,7 @@ const Mission = () => {
 
         {/* Right: Content */}
         <div className="w-full md:w-1/2 md:p-10 p-2 z-10 flex flex-col justify-center text-gray-800">
-          <p className="text-lg md:text-xl  sm:leading-[1.5rem] md:leading-[3rem]">
+          <p className="mt-2  text-[14px] md:text-xl  sm:leading-[1.5rem] md:leading-[3rem]">
             To become a leading name in virtual tour innovation, empowering
             businesses to create stronger online connections through immersive
             digital experiences.
@@ -57,7 +57,7 @@ const Mission = () => {
         Mission
       </h1> */}
         <h2
-          className="texl-xl md:text-[40px] font-bold mb-9"
+          className="text-[22px] md:text-[40px] font-bold mb-3 md:mb-9"
           //   className=" absolute bottom-[80%] sm:bottom-[80%] lg:bottom-[80%] left-1/2 -translate-x-1/2
           //      text-5xl sm:text-6xl md:text-7xl lg:text-9xl
           //      font-extrabold text-transparent bg-clip-text
@@ -73,7 +73,7 @@ const Mission = () => {
 
         {/* Right: Content */}
         <div className="w-full md:w-1/2 md:p-10 p-2 z-10 flex flex-col justify-center text-gray-800">
-          <p className="text-lg md:text-xl  sm:leading-[1.5rem] md:leading-[3rem]">
+          <p className=" mt-2 text-[14px] md:text-xl  sm:leading-[1.5rem] md:leading-[3rem]">
             We deliver high-quality Google Virtual Tours that showcase
             real-world spaces with precision and creativity, helping our clients
             build trust, attract customers, and enhance their digital identity.

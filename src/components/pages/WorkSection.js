@@ -58,11 +58,11 @@ const WorkSection = () => {
       </section>
 
       {/* ✅ About Section */}
-      <section className="px-4 md:px-16 py-16 bg-white text-center md:text-left">
+      <section className="px-4 md:px-16 py-8 md:py-16 bg-white text-center md:text-left">
         <h1 className="text-3xl md:text-4xl font-semibold text-slate-800 mb-6">
           Virtual Walkthroughs for Higher Education
         </h1>
-        <p className="text-slate-700 md:text-[22px] leading-relaxed text-base mb-4">
+        <p className="text-slate-700 md:text-[22px] leading-relaxed text-base md:mb-4">
           Colleges and universities use our virtual tours to showcase campuses,
           libraries, auditoriums, hostels, and labs. These tours support
           admissions, international student engagement, and branding giving
@@ -71,7 +71,7 @@ const WorkSection = () => {
       </section>
 
       {/* ✅ More Projects */}
-      <section className="px-4 md:px-16 py-12 bg-gray-50">
+      <section className="px-4 md:px-16 md:py-12 ">
         <div className="flex flex-col md:flex-row gap-6">
           {/* CARD 1 */}
           <Link

@@ -5,10 +5,10 @@ const About = () => {
     <>
       <section className=" px-4 md:px-8 lg:mx-8 py-16 ">
         {/* Title */}
-        <p className=" text-black text-[10px] md:text-[14px] mb-2">
+        <p className=" text-black text-[12px] md:text-[14px] mb-2">
           Who We are
         </p>
-        <h2 className="text-[22px] md:text-[40px]   font-bold mb-10 text-black  ">
+        <h2 className="text-[22px] md:text-[40px]   font-bold mb-3 md:mb-10 text-black  ">
           Bringing Real Spaces to Life <span className="text-[#40E0D0]">V</span>
           irtually
         </h2>

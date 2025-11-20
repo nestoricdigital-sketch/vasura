@@ -30,7 +30,7 @@ export default function Works() {
     <section className="w-full bg-white py-16 px-4 md:px-[64px]   ">
       {/* Title & Description */}
       <div className="text-start mb-10">
-        <p className="text-[10px] md:text-[14px] mb-2 ">Our Works </p>
+        <p className="text-[12px] md:text-[14px] mb-2 ">Our Works </p>
         <h2 className="text-[22px] md:text-4xl font-bold text-gray-900 mb-4">
           See the Difference. Feel the <span className="text-[#40E0D0]">E</span>
           xperience.

@@ -8,11 +8,11 @@ const Service = () => {
     <section className="py-16 px-4 md:px-14 w-full" id="services">
       <div className=" ">
         {/* Section Title */}
-        <p className=" text-black mb-2 md:text-[14px] ">Services</p>
+        <p className=" text-black mb-2 text-[12px] md:text-[14px] ">Services</p>
         <h2 className="text-[22px]  md:text-[40px] font-semibold text-start text-black mb-4">
           Wha<span className="text-[#40E0D0]">t</span> We Offer
         </h2>
-        <p className="text-start text-[14px] md:text-xl text-gray-600  mx-auto mb-12">
+        <p className="text-start text-[14px] md:text-xl text-gray-600  mx-auto mb-8 md:mb-10">
           No matter your business type, our virtual tours help you stand out
           online and build customer trust.
         </p>

@@ -76,7 +76,7 @@ const Counter = () => {
           <h3 className="text-[#40E0D0] text-4xl md:text-5xl font-bold">
             {counts.verticals}
           </h3>
-          <p className="text-gray-300 mt-2">Verticals</p>
+          <p className="text-gray-300 mt-2 text-[12px] md:text-[18px]">Verticals</p>
         </div>
 
         <div>

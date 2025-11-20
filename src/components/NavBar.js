@@ -268,7 +268,7 @@ const NavBar = () => {
           {/* 🔹 Mobile Dropdown Menu */}
           {menuOpen && (
             <div className="absolute top-full left-0 w-full bg-white rounded-b-lg shadow-md md:hidden mt-2 py-4 z-40">
-              <ul className="flex flex-col items-center space-y-4 text-lg font-medium">
+              <ul className="flex flex-col items-center space-y-4 text-[16px] md:text-lg font-medium">
                 {["Home", "Services", "Works", "About", "Contact"].map(
                   (item) => (
                     <li

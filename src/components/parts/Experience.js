@@ -10,10 +10,10 @@ export default function Experience() {
       {/* Left Box (60%) */}
       <div className="md:w-3/5 w-full space-y-4 flex flex-col justify-center">
         <div>
-          <p className="text-black text-[10px] md:text-[14px] mb-2">
+          <p className="text-black text-[12px] md:text-[14px] mb-2">
             Google Immersive View
           </p>
-          <h2 className="text-[22px]  md:text-[40px]  font-bold text-black mb-4">
+          <h2 className="text-[22px]  md:text-[40px]  font-bold text-black md:mb-4">
             Experience Google Immersive{" "}
             <span className="text-[#40E0D0]">V</span>iew
           </h2>
